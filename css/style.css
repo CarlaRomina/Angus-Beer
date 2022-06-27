@@ -43,11 +43,7 @@ nav ul{
 			font-family: 'Nunito', sans-serif;
 		}
 
-		/*hover*/
-		nav ul li a:hover{
-			color: #336015;
-			font-weight: 600;
-		}
+		
 
 footer{
 padding: 0px;
@@ -87,6 +83,7 @@ aside div img{
 }
 
 article img{
+	border-radius: 20px;
 
 	width: 80%;
 	height: 80%;
@@ -431,18 +428,94 @@ article img{
 	
 }
 
-
-
-
-
 .img-center{
 	justify-content: center;
 	align-items: center;
 	
 }
 
+/*Animaciones*/
+
+/*Productos destacados*/
+
+.prod-dest{
+	white-space: nowrap;
+	overflow: hidden;
+	width:15em;
+	animation: anim 8s;
+	infinite;
+	
+}
+
+@keyframes anim{
+	from {width: 0;}
+}
+
+/*hover*/
+		nav ul li a:hover{
+			color: #336015;
+			font-weight: 500;
+			font-size:25px;
+			font-size-adjust:20px;
+		}
 
 
 
+/*.search-box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%) ;
+	background: ;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.search-box:hover >input{
+	width: 200px;
+	padding: 0 10px;
 
+}
+.search-box:hover >.icon{
+	background: #3FA435;
+}
 
+.icon:hover{
+	transform: rotate(360deg)
+scale(0.8);
+}
+
+input{
+	width: 0;
+	border: none;
+	outline: none;
+	padding: 0;
+	background: none;
+	font-size: 1.1rem;
+	transition: 0.5s ease;
+	line-height: 40px;
+	color: ;
+}
+
+.icon{
+	color: ;
+	float: right;
+	width: 40px;
+	font-size: 1.3rem;
+	height: 40px;
+	border-radius: 50px;
+	background: ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+	cursor: pointer;
+	text-decoration: none;
+}*/
+
+.imp:hover{
+			color: #336015;
+			font-weight: 500;
+			font-size:25px;
+			font-size-adjust:20px;
+		}
